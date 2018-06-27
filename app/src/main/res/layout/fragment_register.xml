@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            tools:context="com.example.kanto.projects.RegisterFragment" android:fillViewport="true">
+
+<android.support.constraint.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="548dp"
+        android:text="จำนวนการออกกำลังกายในแต่ละสัปดาห์"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        app:layout_constraintHorizontal_bias="0.03"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginEnd="8dp"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="348dp"
+        android:text="อาหารที่แพ้"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        app:layout_constraintHorizontal_bias="0.726"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginEnd="8dp"/>
+
+    <EditText
+        android:id="@+id/edit_hips"
+        android:layout_width="69dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="473dp"
+        android:ems="10"
+        android:hint="นิ้ว"
+        android:inputType="number|numberDecimal"
+        android:selectAllOnFocus="false"
+        android:singleLine="false"
+        android:textAlignment="center"
+        app:layout_constraintHorizontal_bias="0.294"
+        app:layout_constraintLeft_toRightOf="@+id/textView7"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="แบบสอบถามข้อมูลผู้ใช้งาน"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.02"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="38dp" />
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="82dp"
+        android:ems="10"
+        android:textAlignment="center"
+        android:hint="กรอกชื่อ"
+        android:inputType="textPersonName"
+        app:layout_constraintHorizontal_bias="0.255"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edit_high"
+        android:layout_width="93dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="224dp"
+        android:ems="10"
+        android:textAlignment="center"
+        android:hint="เซนติเมตร"
+        android:inputType="number|numberDecimal"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toRightOf="@+id/textView4"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <EditText
+        android:id="@+id/edit_arm"
+        android:layout_width="68dp"
+        android:layout_height="47dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="425dp"
+        android:ems="10"
+
+        android:hint="นิ้ว"
+        android:inputType="number|numberDecimal"
+        android:textAlignment="center"
+        app:layout_constraintHorizontal_bias="0.293"
+        app:layout_constraintLeft_toRightOf="@+id/textView7"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <EditText
+        android:id="@+id/edit_wrist"
+        android:layout_width="65dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="369dp"
+        android:ems="10"
+        android:textAlignment="center"
+        android:hint="นิ้ว"
+        android:inputType="number|numberDecimal"
+        app:layout_constraintHorizontal_bias="0.294"
+        app:layout_constraintLeft_toRightOf="@+id/textView7"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edit_waistline"
+        android:layout_width="71dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="281dp"
+        android:ems="10"
+        android:hint="นิ้ว"
+        android:inputType="number|numberDecimal"
+        android:textAlignment="center"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toRightOf="@+id/textView7"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <EditText
+        android:id="@+id/edit_weight"
+        android:layout_width="71dp"
+        android:layout_height="41dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="224dp"
+        android:ems="10"
+        android:textAlignment="center"
+        android:hint="กิโลกรัม"
+        android:inputType="number|numberDecimal"
+        app:layout_constraintHorizontal_bias="0.002"
+        app:layout_constraintLeft_toRightOf="@+id/textView5"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="58dp"
+        android:layout_height="26dp"
+        android:layout_marginRight="8dp"
+        android:text="ส่วนสูง"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="34dp"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup"
+        app:layout_constraintLeft_toRightOf="@+id/textView5"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintHorizontal_bias="0.4"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="56dp"
+        android:layout_height="26dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="น้ำหนัก"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        app:layout_constraintHorizontal_bias="0.03"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="34dp"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <EditText
+        android:id="@+id/edit_age"
+        android:layout_width="81dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="58dp"
+        android:layout_marginTop="153dp"
+        android:textAlignment="center"
+        android:ems="10"
+        android:inputType="number|numberDecimal"
+        app:layout_constraintHorizontal_bias="0.249"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="40dp"
+        android:layout_height="27dp"
+        android:text="อายุ"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/edit_age"
+
+        android:layout_marginRight="8dp"
+        app:layout_constraintHorizontal_bias="0.703"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="159dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="197dp"
+        android:layout_height="47dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="153dp"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="เพศชาย" />
+
+        <RadioButton
+            android:id="@+id/female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="เพศหญิง" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="291dp"
+        android:text="รอบเอว"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="16dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="348dp"
+        android:text="สำหรับผู้หญิง"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="372dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.919"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <CheckBox
+            android:id="@+id/sea_food"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="อาหารทะเล"
+            tools:layout_editor_absoluteX="227dp"
+            tools:layout_editor_absoluteY="393dp"/>
+
+        <CheckBox
+            android:id="@+id/nut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ถั่วเหลือง/ถั่วลิสง"
+            tools:layout_editor_absoluteX="236dp"
+            tools:layout_editor_absoluteY="348dp"/>
+
+        <CheckBox
+            android:id="@+id/milk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="นม"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="380dp"/>
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="106dp"
+        android:layout_height="146dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="385dp"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="81dp"
+            android:layout_height="47dp"
+            android:text="รอบข้อมือ"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="95dp"
+            android:layout_height="50dp"
+            android:text="รอบต้นแขน"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="รอบสะโพก"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+
+    </RadioGroup>
+
+
+    <RadioGroup
+        android:id="@+id/radioexercise"
+        android:layout_width="300dp"
+        android:layout_height="135dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.196"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView2">
+
+        <RadioButton
+            android:id="@+id/checkBox10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="ออกกำลังกายน้อยมากหรือไม่ออกเลย"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            />
+
+        <RadioButton
+            android:id="@+id/checkBox7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+            android:text="ออกกำลังกายเบา 1-3 ครั้งต่อสัปดาห์"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"/>
+
+        <RadioButton
+            android:id="@+id/checkBox8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ออกกำลังกายปานกลาง 3-5 ครั้งต่อสัปดาห์"
+
+            app:layout_constraintTop_toBottomOf="@+id/textView2"/>
+
+        <RadioButton
+            android:id="@+id/checkBox6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ออกกำลังกายหนัก 5-7 ครั้งต่อสัปดาห์"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox7"/>
+
+        <RadioButton
+            android:id="@+id/checkBox9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ออกกำลังกายหนัก 2 ครั้งต่อวัน"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"/>
+
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/insert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:text="บันทึกข้อมูล"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioexercise"
+        app:layout_constraintVertical_bias="0.045"/>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/insert"
+        />
+
+
+</android.support.constraint.ConstraintLayout>
+
+</ScrollView>

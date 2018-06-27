@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".DescriptionFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioGroup
+            android:id="@+id/RadioGroup3"
+            android:layout_width="70dp"
+            android:layout_height="268dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="236dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="236dp"
+            android:layout_marginTop="136dp"
+            android:background="#FFC0CB"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.26"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:layout_weight="1"
+                android:background="#DB7093"
+                android:text="ผู้หญิง"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:layout_weight="1"
+                android:text="10–13%"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:layout_weight="1"
+                android:text="14–20%"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:layout_weight="1"
+                android:text="21–25%"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:layout_weight="1"
+                android:text="26–31%"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:layout_weight="1"
+                android:text="32–39%"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:layout_weight="1"
+                android:text="40%+"
+                android:textAlignment="center"/>
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/RadioGroup2"
+            android:layout_width="70dp"
+            android:layout_height="268dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="168dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="168dp"
+            android:layout_marginTop="136dp"
+            android:background="#E6E6FA"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.15"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:layout_weight="1"
+                android:background="#B0C4DE"
+                android:text="ผู้ชาย"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:layout_weight="1"
+                android:text="2–5%"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:layout_weight="1"
+                android:text="6–13%"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:layout_weight="1"
+                android:text="14-17%"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:layout_weight="1"
+                android:text="18–22%"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:layout_weight="1"
+                android:text="23–29%"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:layout_weight="1"
+                android:text="30%+"
+                android:textAlignment="center"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="38dp"
+            android:text="รายละเอียดเพิ่มเติม"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_bias="0.02"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="416dp"
+            android:text="คำแนะนำ"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.058"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/textView51"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="704dp"
+            android:text="ฐานข้อมูลอาหารอ้างอิงจาก"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.101"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/textView52"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="740dp"
+            android:text="  ตารางแสดงคุณค่าทางโภชนาการของอาหารไทย โดย กองโภชนาการ"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/textView53"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="784dp"
+            android:text="   ASEAN Food Composition Database โดย สถาบันโภชนาการ มหาวิทยาลัยมหิดล "
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/textView54"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="880dp"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.777"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"/>
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="560dp"
+            android:text="     ในการออกกำลังกายควรออกกำลังกายควบคู่กับแผนอาหารโดย แผนอาหารลดไขมัน เน้น คาร์ดิโอเป็นหลัก กับ เวทเทรนนิ่ง ส่วนแผนอาหารเพิ่มกล้ามเนื้อ เน้น เวทเทรนนิ่งเป็นหลัก กับ คาร์ดิโอ"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.473"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/textView49"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="440dp"
+            android:text="      หากต้องการใช้แผนอาหารสร้างกล้ามเนื้อ ในกรณีที่มีไขมันในช่วง น้ำหนักเกินไป หรือ         มีไขมันมากเกินไป ควรใช้แผนอาหารลดไขมันก่อน จนไขมันอยู่ช่วง คนทั่วไป หรือ มีไขมันพอยอมรับได้ จึงค่อยใช้แผนสร้างกล้ามเนื้อ"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.488"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="84dp"
+            android:text="ตารางเปอร์เซ็นไขมัน"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.08"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <RadioGroup
+            android:id="@+id/RadioGroup1"
+            android:layout_width="134dp"
+            android:layout_height="268dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="136dp"
+            android:background="#F0F8FF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="#B0E0E6"
+                android:text="คำอธิบาย"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:text="มีไขมัน เท่าที่จำเป็น"/>
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:text="มีไขมันพอประมาณ (นักกีฬา)"/>
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:text="มีไขมันเหมาะสม                       (คนออกกำลังกาย)"/>
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:text="มีไขมันพอยอมรับได้              (คนทั่วไป)"/>
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:text="น้ำหนักเกิน"/>
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:text="มีไขมันเกินไป "/>
+        </RadioGroup>
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
